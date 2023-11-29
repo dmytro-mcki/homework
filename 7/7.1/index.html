@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="https://www.waivio.com" method="post" >
+        <div class="form_container">
+            <div class="form_text_wrapper">
+                <p class="form_text">Contact information</p>
+            </div>
+            <div class="input_wrapper">
+                <label for="name">Name:<em></em>*</em></label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input_wrapper">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" >
+            </div>
+            <div class="input_wrapper">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" >
+            </div>
+            <div class="input_wrapper">
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                  <option value="" disabled selected>Select your country</option>
+                  <option value="usa">USA</option>
+                  <option value="canada">Canada</option>
+                  <option value="uk">UK</option>
+                  <option value="germany">Germany</option>
+                  <option value="france">France</option>
+                  <option value="japan">Japan</option>
+                  <option value="australia">Australia</option>
+                  <option value="brazil">Brazil</option>
+                  <option value="india">India</option>
+                  <option value="southafrica">South Africa</option>
+                </select>
+            </div>
+            <div class="input_wrapper">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+        </div>
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+    
+</div>
+</body>
+</html>

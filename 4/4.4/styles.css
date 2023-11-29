@@ -1,0 +1,31 @@
+.container {
+    width: 500px;
+    height: 500px;
+    border: solid black;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: bounce 4s ease-in-out infinite;
+  }
+
+@keyframes bounce {
+    0%, 100% {
+      background-color: red; 
+      transform: translateY(0) translateX(0); 
+    }
+    25% {
+      background-color: blue; 
+      transform: translateY(400px) translateX(0); 
+    }
+    50% {
+      background-color: green; 
+      transform: translateY(400px) translateX(400px); 
+    }
+    75% {
+      background-color: orange; 
+      transform: translateY(0) translateX(400px); 
+    }
+  }

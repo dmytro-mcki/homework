@@ -1,0 +1,55 @@
+html {
+    margin: 0;
+}
+body {
+    margin: 0;
+
+}
+
+.menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 50px;
+    height: 100vh;
+    background-color: gray;
+    
+}
+.div_text {
+    margin: 5px;
+    writing-mode: vertical-rl;
+    position: relative;
+    top: 45%;
+    left: 10px;
+    
+}
+
+ul {
+    display: none;
+}
+
+.list {
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: gray;
+    top: 0px;
+    left: -250px;
+    width: 200px;
+    height: 100vh;
+    transition: transform 0.75s ease 0.75s;
+}
+
+li {
+    position: relative;
+    top: 20%;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.menu:hover + .list {
+    display: block;
+    transform: translateX(100%);
+    
+}
+

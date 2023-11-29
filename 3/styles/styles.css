@@ -1,0 +1,26 @@
+div {
+    width: 350px;
+    height: 220px;
+    padding: 15px 10px 20px 10px;
+    margin-bottom: 30px;
+    border: 2px dashed red;
+    background-color: green;
+}
+
+p   {
+    width: 50%;
+    margin: 70px;
+    text-align: justify;
+}
+
+img {
+    margin: 10px;
+}
+.first_image {
+    float: left;
+}
+
+.second_image {
+    float: right;
+
+}
