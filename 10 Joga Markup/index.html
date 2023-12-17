@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./fonts/icomoon/style.css">
+				
+    <title>Project</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav_container">
+                <div class="nav_wrapper nav_logo_contaner">
+                    <a href="index.html">
+                        <img class="logo" src="./images/logo.png" alt="#" class="logo">
+                    </a>
+                </div>
+                <div class="nav_wrapper">
+                    <input type="checkbox" id="nav_toggle">
+                    <span class="nav_icon">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                    </span>
+                    <nav>
+                      <a href="#main" class="nav_item nav_item_active">About us</a>
+                      <a href="#reservation" class="nav_item">Reservation</a>
+                      <a href="#gallery" class="nav_item">Gallery</a>
+                      <a href="#blog" class="nav_item">Blog</a>
+                      <a href="#elements" class="nav_item">Elements</a>
+                      <a href="#shop" class="nav_item">Shop</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="main">
+            <div class=" main_form_wrapper section_wrapper">
+                <form class="main_form" action="#" method="post">
+                    <h2 class="main_form_title">Trial Class</h2>
+                    <div class="main_fields_container">
+                        <input type="text" id="name" name="name" class="main_form_field" placeholder="Enter your name" required>
+                        <input type="tel" id="phone" name="phone" class="main_form_field" placeholder="Enter your phone" required>
+                        <select id="class" name="class" class="main_form_select main_form_field" required >
+                            <option class="main_select_option" disabled selected>Choose your class</option>
+                            <option class="main_select_option" value="class1">Class 1</option>
+                            <option class="main_select_option"value="class2">Class 2</option>
+                            <option class="main_select_option"value="class3">Class 3</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="main_form_button" value="Submit">Try It</button>
+                </form>
+            </div>
+            <div class="main_text_wrapper section_wrapper">
+                <h2 class="main_title">Just Balance your Mind & Body</h2>
+                <p class="main_text">Create the healthy living for yourself</p>
+            </div>     
+        </section>
+        <section id="reservation">
+            <div class="reservation_text_wrapper">
+                <h2 class="reservation_title section_title">YOGA FEATURE PROGRAM</h2>
+                <p class="reservation_text">Our Classes</p>
+            </div>
+            <div class="reservation_card_wrapper">
+                <div class="reservation_card_item">
+                    <div class="reservation_image_wrappper">
+                        <img class="reservation_image" src="./images/img-01.jpg" alt="Yoga for health">
+                    </div>
+                    <div class="reservation_card_text_wrapper">
+                        <p class="reservation_card_title">Yoga for health</p>
+                        <p class="reservation_card_text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                        <p class="reservation_card_type">Ashtanga - Hatha</p>
+                    </div>
+                </div>
+                <div class="reservation_card_item">
+                    <div class="reservation_image_wrappper">
+                        <img class="reservation_image"  src="./images/img-02.jpg" alt="Yoga For Lose Weight">
+                    </div>
+                    <div class="reservation_card_text_wrapper">
+                        <p class="reservation_card_title">Yoga For Lose Weight</p>
+                        <p class="reservation_card_text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                        <p class="reservation_card_type">Ashtanga - Hatha</p>
+                    </div>
+                </div>
+                <div class="reservation_card_item">
+                    <div class="reservation_image_wrappper">
+                        <img class="reservation_image"  src="./images/img-03.jpg" alt="Yoga for children">
+                    </div>
+                    <div class="reservation_card_text_wrapper">
+                        <p class="reservation_card_title">Yoga for children</p>
+                        <p class="reservation_card_text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                        <p class="reservation_card_type">Ashtanga - Hatha</p>
+                    </div>
+                </div>
+                <div class="reservation_card_item">
+                    <div class="reservation_image_wrappper">
+                        <img class="reservation_image" src="./images/img-04.jpg" alt="Yoga for eldery">
+                    </div>
+                    <div class="reservation_card_text_wrapper">
+                        <p class="reservation_card_title">Yoga for eldery</p>
+                        <p class="reservation_card_text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                        <p class="reservation_card_type">Ashtanga - Hatha</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <div class="gallery_card_wrapper">
+                <div class="gallery_row">
+                    <div class="gallery_card">
+                        <img src="./images/img-05.jpg" alt="#" class="gallery_card_image">
+                        <div class="gallery_card_hover">
+                            <div class="gallery_icon_wrapper">
+                                <span class="icon-search"></span>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                    <div class="gallery_card">
+                        <img src="./images/img-06.jpg" alt="#" class="gallery_card_image">
+                        <div class="gallery_card_hover">
+                            <div class="gallery_icon_wrapper">
+                                <span class="icon-search"></span>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                    <div class="gallery_card">
+                        <img src="./images/img-07.jpg" alt="#" class="gallery_card_image">
+                        <div class="gallery_card_hover">
+                            <div class="gallery_icon_wrapper">
+                                <span class="icon-search"></span>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                    <div class="gallery_card">
+                        <img src="./images/img-08.jpg" alt="#" class="gallery_card_image">
+                        <div class="gallery_card_hover">
+                            <div class="gallery_icon_wrapper">
+                                <span class="icon-search"></span>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                </div>
+                <div class="gallery_row">
+                    <div class="gallery_card">
+                        <img src="./images/img-09.jpg" alt="#" class="gallery_card_image">
+                        <div class="gallery_card_hover">
+                            <div class="gallery_icon_wrapper">
+                                <span class="icon-search"></span>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                    <div class="gallery_card">
+                        <img src="./images/img-10.jpg" alt="#" class="gallery_card_image">
+                        <div class="gallery_card_hover">
+                            <div class="gallery_icon_wrapper">
+                                <span class="icon-search"></span>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                    <div class="gallery_card">
+                        <img src="./images/img-11.jpg" alt="#" class="gallery_card_image">
+                        <div class="gallery_card_hover">
+                            <div class="gallery_icon_wrapper">
+                                <span class="icon-search"></span>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                    <div class="gallery_card">
+                        <img src="./images/img-12.jpg" alt="#" class="gallery_card_image">
+                        <div class="gallery_card_hover">
+                            <div class="gallery_icon_wrapper">
+                                <span class="icon-search"></span>
+                            </div>
+                            
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog">
+            <div class="blog_section_wrapper">
+                <div class="blog_text_wrapper">
+                    <h2 class="blog_title section_title">About us</h2>
+                    <p class="blog_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui 
+                        ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.</p>
+                </div>
+                <div class="blog_slider_wrapper">
+                    <div class="blog_image_wrapper"><img src="./images/img-13.jpg" alt="#" class="blog_image"></div>
+                    <div class="blog_image_wrapper"><img src="./images/img-13.jpg" alt="#" class="blog_image"></div>
+                    <div class="blog_image_wrapper"><img src="./images/img-13.jpg" alt="#" class="blog_image"></div>
+                </div>
+            </div>
+        </section>
+        <section id="elements">
+            <div class="elements_section_wrapper">
+                <div class="elements_item_row">
+                    <div class="elements_item_wrapper">
+                        <div class="elements_item_image_wrapper">
+                            <img src="./images/ico-01.png" alt="#" class="elements_item_image">
+                        </div>
+                        <div class="elements_item_text_wrapper">
+                            <p class="elements_item_title">IMPROVED OVERALL HEALTH</p>
+                            <p class="elements_item_text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                        </div>
+                    </div>
+                    <div class="elements_item_wrapper">
+                        <div class="elements_item_image_wrapper">
+                            <img src="./images/ico-02.png" alt="#" class="elements_item_image">
+                        </div>
+                        <div class="elements_item_text_wrapper">
+                            <p class="elements_item_title">INCREASED CONCENTRATION</p>
+                            <p class="elements_item_text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                        </div>
+                    </div>
+                    <div class="elements_item_wrapper">
+                        <div class="elements_item_image_wrapper">
+                            <img src="./images/ico-03.png" alt="#" class="elements_item_image">
+                        </div>
+                        <div class="elements_item_text_wrapper">
+                            <p class="elements_item_title">BALANCE YOUR MIND</p>
+                            <p class="elements_item_text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                        </div>
+                    </div>
+                    <div class="elements_item_wrapper">
+                        <div class="elements_item_image_wrapper">
+                            <img src="./images/ico-04.png" alt="#" class="elements_item_image">
+                        </div>
+                        <div class="elements_item_text_wrapper">
+                            <p class="elements_item_title">SLEEP BETTER NOW</p>
+                            <p class="elements_item_text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="elements_item_row">
+                    <div class="elements_item_wrapper">
+                        <div class="elements_item_image_wrapper">
+                            <img src="./images/ico-05.png" alt="#" class="elements_item_image">
+                        </div>
+                        <div class="elements_item_text_wrapper">
+                            <p class="elements_item_title">IMPROVE WEIGHT LOSS</p>
+                            <p class="elements_item_text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                        </div>
+                    </div>
+                    <div class="elements_item_wrapper">
+                        <div class="elements_item_image_wrapper">
+                            <img src="./images/ico-06.png" alt="#" class="elements_item_image">
+                        </div>
+                        <div class="elements_item_text_wrapper">
+                            <p class="elements_item_title">STRENGTHENS YOUR BONES</p>
+                            <p class="elements_item_text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                        </div>
+                    </div>
+                    <div class="elements_item_wrapper">
+                        <div class="elements_item_image_wrapper">
+                            <img src="./images/ico-07.png" alt="#" class="elements_item_image">
+                        </div>
+                        <div class="elements_item_text_wrapper">
+                            <p class="elements_item_title">INCREASED FLEXIBILITY</p>
+                            <p class="elements_item_text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                        </div>
+                    </div>
+                    <div class="elements_item_wrapper">
+                        <div class="elements_item_image_wrapper">
+                            <img src="./images/ico-08.png" alt="#" class="elements_item_image">
+                        </div>
+                        <div class="elements_item_text_wrapper">
+                            <p class="elements_item_title">LOWER BLOOD PRESSURE</p>
+                            <p class="elements_item_text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="shop">
+            <div class="shop_section_wrapper">
+                <div class="shop_plan_item">
+                    <div class="shop_plan_top_wrapper">
+                        <p class="shop_plan_currency">$</p>
+                        <p class="shop_plan_amount">49</p>
+                        <p class="shop_plan_month">/ MONTH</p>
+                    </div>
+                    <div class="shop_plan_text_wrapper">
+                        <p class="shop_plan_text">ENTRY DATE: MON – FRI</p>
+                        <p class="shop_plan_text">ENTRY TIME: 8A.M – 8P.M</p>
+                        <p class="shop_plan_text">NUTRITION ADVICER: NO</p>
+                    </div>
+                    <div class="shop_plan_button_wrapper">
+                        <button class="shop_plan_button">Buy now</button>
+                    </div>
+                </div>
+                <div class="shop_plan_item">
+                    <div class="shop_plan_top_wrapper">
+                        <p class="shop_plan_currency">$</p>
+                        <p class="shop_plan_amount">69</p>
+                        <p class="shop_plan_month">/ MONTH</p>
+                    </div>
+                    <div class="shop_plan_text_wrapper">
+                        <p class="shop_plan_text">ENTRY DATE: MON – FRI</p>
+                        <p class="shop_plan_text">ENTRY TIME: 8A.M – 8P.M</p>
+                        <p class="shop_plan_text">NUTRITION ADVICER: YES</p>
+                    </div>
+                    <div class="shop_plan_button_wrapper">
+                        <button class="shop_plan_button">Buy now</button>
+                    </div>
+                </div>
+                <div class="shop_plan_item">
+                    <div class="shop_plan_top_wrapper">
+                        <p class="shop_plan_currency">$</p>
+                        <p class="shop_plan_amount">99</p>
+                        <p class="shop_plan_month">/ MONTH</p>
+                    </div>
+                    <div class="shop_plan_text_wrapper">
+                        <p class="shop_plan_text">ENTRY DATE: MON – SUN</p>
+                        <p class="shop_plan_text">ENTRY TIME: 8A.M – 8P.M</p>
+                        <p class="shop_plan_text">NUTRITION ADVICER: YES</p>
+                    </div>
+                    <div class="shop_plan_button_wrapper">
+                        <button class="shop_plan_button">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_wrapper">
+            <div class="footer_item_wrapper">
+                <div class="footer_item">
+                    <p class="footer_item_title">About</p>
+                    <p class="footer_item_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m inim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                </div>
+                <div class="footer_item">
+                    <p class="footer_item_title">Contact US</p>
+                    <div class="footer_item_element_wrapper">
+                        <div class="footer_item_element_column"> 
+                            <div class="footer_item_element">
+                                <i class="footer_item_element_icon icon-location2"></i>
+                                <p class="footer_item_element_text">5419 Joseph Mountains Apt. 716</p>
+                            </div>
+                            <div class="footer_item_element">
+                                <i class="footer_item_element_icon icon-phone"></i>
+                                <div class="footer_item_element_text-wrapper">
+                                    <p class="footer_item_element_text">+1 234 567 89</p>
+                                    <p class="footer_item_element_text">+1 234 678 90</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer_item_element_column"> 
+                            <div class="footer_item_element">
+                                <i class="footer_item_element_icon icon-envelop"></i>
+                                <p class="footer_item_element_text">joga.info@example.com</p>
+                            </div>
+                            <div class="footer_item_element">
+                                <i class="footer_item_element_icon icon-dribbble"></i>
+                                <p class="footer_item_element_text">www.example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_item">
+                    <div class="footer_item_icon_wrapper">
+                        <a href="#" class="footer_item_icon_link">
+                            <i class="footer_item_icon icon-pinterest"></i>
+                        </a>
+                        <a href="#" class="footer_item_icon_link">           
+                            <i class="footer_item_icon icon-twitter"></i> 
+                        </a>
+                        <a href="#" class="footer_item_icon_link">
+                            <i class="footer_item_icon icon-facebook"></i>
+                        </a>
+                        <a href="#" class="footer_item_icon_link">
+                            <i class="footer_item_icon icon-google-plus3"></i>
+                        </a>
+                        <a href="#" class="footer_item_icon_link">
+                            <i class="footer_item_icon icon-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="footer_copyright">Copyright &copy;  2016-2017 Yoga classes</p>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+	<script>
+        $(document).ready(function(){
+            $('.blog_slider_wrapper').slick({
+                infinite: true,
+                speed: 500,
+                fade: true,
+                cssEase: 'linear',
+            });
+        });
+    </script>			
+</body>
+</html>
